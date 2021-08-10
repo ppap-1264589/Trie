@@ -7,17 +7,7 @@
 ### Code: DICTIONARY.cpp
 ```c++
 #include <bits/stdc++.h>
-#pragma GCC optimize("Ofast")
-#pragma GCC optimize ("unroll-loops")
-#pragma GCC target("sse,sse2,sse3,ssse3,sse4,popcnt,abm,mmx,avx,tune=native")
-
-#define Task                    "G"
 using namespace std;
-
-void setFile(){
-    freopen (Task".inp", "r", stdin);
-    freopen (Task".out", "w", stdout);
-}
 
 const int maxn = 1000001;
 int n,m;
@@ -68,7 +58,6 @@ void In(){
 }
 
 signed main (){
-    setFile();
     ios_base::sync_with_stdio(false);
     cin.tie(0);
     cout.tie(0);
