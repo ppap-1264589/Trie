@@ -33,7 +33,9 @@ void Add(string s, int i){
 void findstring(int nod, int i, string a){ // Force tim ra xau dai nhat
     int pos2 = T[nod].depth;
     if (pos2){
-        if (dict[res].size() == dict[pos2].size()) res = min(res, pos2); // Thu tu tu dien nho nhat
+        if (dict[res].size() == dict[pos2].size()) res = min(res, pos2); 
+        // Thu tu tu dien nho nhat
+        
         if (dict[res].size() < dict[pos2].size()) res = pos2;
     }
 
