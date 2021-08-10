@@ -1,4 +1,10 @@
-### DICTIONARY.cpp
+### [Trang chủ](https://ppap-1264589.github.io/interesting-solution)
+
+### [Bài Toán](https://github.com/ppap-1264589/Trie/files/6961891/G.pdf)
+
+### [Lời giải]
+
+### Code: DICTIONARY.cpp
 ```c++
 #include <bits/stdc++.h>
 #pragma GCC optimize("Ofast")
